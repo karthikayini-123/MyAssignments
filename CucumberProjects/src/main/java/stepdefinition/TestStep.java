@@ -10,9 +10,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class TestStep {
+public class TestStep  extends BaseClass {
 	
-public ChromeDriver driver;
 	
 	@Given("Launch the browser")
 	public void launchBrowser() {
